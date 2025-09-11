@@ -237,6 +237,12 @@ public:
                 fHasADS1015 = 1 << 1,
                 //platform has BMP581
                 fHasBMP581 = 1 << 2,
+                //platform has SHT4X sensirion
+                fHasSHT4X = 1 << 3,
+                //platform has nPM1300
+                fHasNpm1300 = 1 << 4,
+                //platform has LIS2DUXS12 accelerometer
+                fHasLIS2DUXS12 = 1 << 5,
                 };
 
         // Get the model number from flags. constexpr to allow for
