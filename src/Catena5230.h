@@ -1,36 +1,16 @@
-/* Catena5230.h	Fri Dec 28 2018 13:58:16 chwon */
-
 /*
 
 Module:  Catena5230.h
 
 Function:
-	class Catena5230: CatenaBase Platform to represent a Catena 5230
-
-Version:
-	V0.13.0	Fri Dec 28 2018 13:58:16 chwon	Edit level 2
+        class Catena5230: CatenaBase Platform to represent a Catena 5230
+        (such as the 5230).
 
 Copyright notice:
-	This file copyright (C) 2018 by
-
-		MCCI Corporation
-		3520 Krums Corners Road
-		Ithaca, NY  14850
-
-	An unpublished work.  All rights reserved.
-
-	This file is proprietary information, and may not be disclosed or
-	copied without the prior permission of MCCI Corporation
+        See accompanying LICENSE file.
 
 Author:
-	ChaeHee Won, MCCI Corporation	November 2018
-
-Revision history:
-   0.11.0  Thu Nov 15 2018 15:07:23 chwon
-	Module created.
-
-   0.13.0  Fri Dec 28 2018 13:58:16  chwon
-	Add ReadVbat() and ReadVbus() override.
+        Murali, MCCI Corporation	Sep 2025
 
 */
 

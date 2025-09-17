@@ -1,36 +1,16 @@
-/* Catena523x.h	Fri Dec 28 2018 13:54:46 chwon */
-
 /*
 
 Module:  Catena523x.h
 
 Function:
-	class Catena523x: CatenaBase Platform to represent a Catena 523x
-
-Version:
-	V0.13.0	Fri Dec 28 2018 13:54:47 chwon	Edit level 3
+        class Catena5230: CatenaBase Platform to represent a Catena 5230
+        (such as the 5230).
 
 Copyright notice:
-	This file copyright (C) 2018 by
-
-		MCCI Corporation
-		3520 Krums Corners Road
-		Ithaca, NY  14850
-
-	An unpublished work.  All rights reserved.
-
-	This file is proprietary information, and may not be disclosed or
-	copied without the prior permission of MCCI Corporation
+        See accompanying LICENSE file.
 
 Author:
-	ChaeHee Won, MCCI Corporation	November 2018
-
-Revision history:
-   0.11.0  Tue Nov 06 2018 14:25:23 chwon
-	Module created.
-
-   0.12.0  Mon Nov 26 2018 15:50:21  chwon
-	Change from CatenaStm32L0LoRa to CatenaStm32L0 class.
+        Murali, MCCI Corporation	Sep 2025
 
 */
 
@@ -64,21 +44,21 @@ public:
 	// LoRaWAN binding
 	class LoRaWAN /* forward */;
 
-	enum ANALOG_PINS
-		{
-		APIN_VBAT_SENSE = A3,
-		APIN_VBUS_SENSE = A4,
-		};
+	// enum ANALOG_PINS
+	// 	{
+	// 	APIN_VBAT_SENSE = A3,
+	// 	APIN_VBUS_SENSE = A4,
+	// 	};
 
 	enum ANALOG_CHANNELS
 		{
-		ANALOG_CHANNEL_A0 = 0,
-		ANALOG_CHANNEL_A1 = 5,
-		ANALOG_CHANNEL_A2 = 4,
-		ANALOG_CHANNEL_A3 = 3,
-		ANALOG_CHANNEL_A4 = 2,
-		ANALOG_CHANNEL_VBAT = ANALOG_CHANNEL_A3,
-		ANALOG_CHANNEL_VBUS = ANALOG_CHANNEL_A4,
+		ANALOG_CHANNEL_A0 = 4,
+		ANALOG_CHANNEL_A1 = 3,
+		ANALOG_CHANNEL_A2 = 2,
+		ANALOG_CHANNEL_A3 = 0,
+		ANALOG_CHANNEL_A4 = 1,
+		// ANALOG_CHANNEL_VBAT = ANALOG_CHANNEL_A3,
+		// ANALOG_CHANNEL_VBUS = ANALOG_CHANNEL_A4,
 		ANALOG_CHANNEL_VREF = 17,
 		};
 
